@@ -163,13 +163,13 @@ nav{
 
 .about-me__picture--title{ 
     margin-bottom: 16px;
-    animation: fade-up 650ms 400ms backwards;
+    animation: fade-up-animation 650ms 400ms backwards;
 }
 
 .about-me__info--para{
     font-size: 20px; 
     margin-bottom: 28px;
-    animation: fade-up 650ms 600ms backwards;
+    animation: fade-up-animation 650ms 600ms backwards;
 }
 
 .about-me__link{
@@ -178,12 +178,11 @@ nav{
     padding: 0 16px;
 }
 
-.about-me__links{
-    animation: fade-up 650ms 800ms backwards;
-
-}
-
-@keyframes fade-up {
+.about-me__links {
+    animation: fade-up-animation 650ms 800ms backwards;
+  }
+  
+  @keyframes fade-up-animation {
     0% {
       opacity: 0;
       transform: translateY(40px);
@@ -202,11 +201,11 @@ nav{
 
 .about-me__img{
     width: 100%;
-    animation: fade-in 1200ms 800ms backwards;
+    animation: fade-in-animation 1200ms 800ms backwards;
 
 }
 
-@keyframes fade-in {
+@keyframes fade-in-animation {
     0% {
       opacity: 0;
     }
